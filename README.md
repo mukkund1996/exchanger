@@ -30,11 +30,9 @@ MAX_WORKERS
 To create a development build of the binaries, run the following:
 ### Emailer Cronjob
 ```bash
-# Cronjob
 cargo run --bin emailer
 ```
 ### Webserver
 ```bash
-# Cronjob
 cargo run --bin server
 ```
