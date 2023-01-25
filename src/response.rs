@@ -45,8 +45,7 @@ fn format_response(status_line: &str, length: usize, contents: String) -> String
 }
 
 mod test {
-
-    #![cfg_attr(debug_assertions, allow(dead_code, unused_imports))]
+    #![allow(dead_code, unused_imports)]
     use super::*;
 
     #[test]
